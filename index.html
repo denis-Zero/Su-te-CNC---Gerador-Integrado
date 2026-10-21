@@ -3650,8 +3650,6 @@
             if (bloco === null) return;
             gcode += bloco;
         }
-
-        gcode += `G53Y0\n`;
         gcode += `M30\n%`;
 
         document.getElementById('codigoGcode').value = gcode;
